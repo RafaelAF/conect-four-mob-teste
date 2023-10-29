@@ -1,0 +1,54 @@
+.app-container{
+    width: 95%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.grid--container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    /* overflow: auto; */
+    padding: 20px 5px;
+    border-radius: 8px;
+    background-color: rgb(241, 241, 241);
+}
+.grid--item{
+    background-color: #d8d8d8;
+    display: block;
+    padding: 20px 0;
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.grid--item.player-1{
+    background-color: rgb(230, 127, 43);
+}
+
+.grid--item.player-2{
+    background-color: rgb(43, 230, 62);
+}
+
+.player--container{
+    width: 50%;
+    border-radius: 8px;
+    padding: 20px;
+    transform: translateY(20px);
+    text-align: center;
+    background-color: #d8d8d8;
+    margin: 0 auto;
+}
+
+.player--container .player-name{
+    font-size: 2rem;
+}
+
+.player--container .player-time{
+    font-size: 1.5rem;
+}
